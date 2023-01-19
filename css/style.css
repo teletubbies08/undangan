@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+
+*{
+    font-family: monospace;
+}
+
+body {
+    background-image: url("/img/wedding.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    overflow-x:hidden ;
+    border-radius: 30px;
+}
+
+.card{
+    color: #eee;
+    border: 2px solid #eee;
+    background-color: #000;
+    width: 600px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 30pt;
+}
+
+.title h5 {
+    font-family: "Cookie",cursive;
+    font-size: 25pt;
+    font-weight: 900;
+    margin-bottom: 2px;
+    margin-top: 12px;
+}
+
+.couple {
+    font-family: "Cookie",cursive;
+    font-size: 35pt;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 0.5rem;
+    font-size: 15pt;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.btn-open {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eeeeee;
+
+}
+
+.btn-open:hover{
+    background-color: #eee;
+    color: #000;
+}
+
+.date{
+    font-family: "Cookie",cursive;
+    font-size: 20pt;
+    margin-bottom: 20px; 
+}
+
+.doa{
+    font-size: 20pt;
+    margin-bottom: 20px ;
+}
+.arab{
+    font-weight: 500;
+    font-size: 16pt;
+}
+.arti{
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+#doa{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 470px;
+    background-image: url("/img/wedding2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: #eee; */
+}
+
+#doa .card{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+
+#profile {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: "Cookie",cursive;
+}
+
+.card-couple {
+    display: flex;
+    margin-top: 10px;
+    background-color: #eeeeee;
+    width: 500px;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+}
+
+.card-profile {
+    margin-left: auto;
+    margin-right:100px;
+}
+
+.card-profile h4{
+    font-size: 20pt ;
+    font-weight:200 ;
+    font-family: "Cookie", cursive;
+}
+
+.card-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
+
+    
+}
+#venue{
+    display : flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    justify-content: center;
+    font-family: "Cookie", cursive;
+}
+.card-venue{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #eee;
+    border-radius: 20px;
+
+}
+
+.card-venue.title{
+    margin: 0;
+}
+.card-venue h4{
+    font-size: 20pt;
+    font-weight: 400;
+}
+.card-venue p {
+    font-size: 16pt;
+}
+
+#peta{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: "Cookie", cursive;
+    margin-bottom: 20PX;
+}
+
+.card-peta{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30 PX;
+    color: #eee;
+    border: 2PX;
+    margin: auto;
+    padding-left: 200PX;
+    padding-right: 200PX;
+    padding-bottom: 20PX;
+}
+.card-peta h5{
+    font-size: 28px;
+    text-align: center;
+}
+#peta iframe{
+    display: flex;
+}
+
+#bank{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: "Cookie", cursive;
+    margin-bottom: 20PX;
+}
+
+.card-bank{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    border-radius: 30 PX;
+    color: rgb(255, 255, 255);
+    border: 2PX;
+    font-size: 20pt;
+    padding: 10PX;
+    text-align: center;
+}
+.card-bank h5{
+    font-size: 25pt;
+    margin-bottom: 10 px;
+    margin-top: 10px;
+}
+.card-bank img{
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    body::-webkit-scrollbar{
+        display: none;
+    }
+    body{
+        width: 100vh ;
+        margin: 0px ;
+        height:100vh ;
+        padding: 0px ;
+        background-image: url("/img/wedding.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        box-sizing: content-box;
+    }
+    
+    .container{
+        width: 100vw;
+        height: 100vh;
+        margin: 2px;
+        display: flex;
+    }
+    
+    .card.date{
+        margin-bottom: 100px;
+    }
+    
+    #doa{
+        height: 110vh;
+        margin-bottom: 30px;
+    }
+    
+    #doa .card{
+        width: 80vw;
+        height: 90vh;
+    }
+    
+    #profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        margin: 0;
+        padding-top: 20px;
+    }
+    
+    .card-couple{
+        width: 70vw;
+        margin: auto;
+        display: flex ;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .card-profile {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .name{
+        font-size: 12pt;
+        font-weight: 700;
+    
+    }
+
+    #venue{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "cookie",cursive;
+    }
+
+    .card-venue{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #eeeeee;
+        margin: 20px;
+        border-radius: 30px;
+    }
+
+    .card-venue .title h4 {
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .card-venue p{
+        margin-left: 20px;
+        font-size: 16pt;
+    }
+    #peta{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-top: 20px;
+    }
+    .card-peta{
+        position: absolute;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 75%;
+        align-items: center;
+        width: 100vw;
+        flex-direction: row;
+    }
+    #bank {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+}
+
